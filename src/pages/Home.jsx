@@ -23,7 +23,7 @@ const Hero = () => {
 
                 {/* Button (Kept as you wanted) */}
                 <div className="mt-6 flex justify-center md:justify-start space-x-4">
-                    <button className="border border-blue-500 text-blue-500 px-6 py-3 rounded-lg hover:bg-blue-500 hover:text-white transition">
+                    <button onClick={() => window.open('https://drive.google.com/file/d/1Lk0euzpFP7JCnjmFmLA2klK587G93Gnw/view?usp=drivesdk', '_blank')} className="border border-blue-500 text-blue-500 px-6 py-3 rounded-lg hover:bg-blue-500 hover:text-white transition">
                         Get My Resume
                     </button>
                 </div>
